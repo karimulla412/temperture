@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#input-temperature{
+    border-radius: 50px;
+    margin: left 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#output-temperature{
+ border-radius: 50px;
+ margin-left: 5px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#output-unit{
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#input-unit{
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#label1{
+    margin: left 500px;
+}
+button{
+    margin-right: 120px;
+    border-radius: 50px;
+    color: white;
+    background-color: green;
+}
+#div{
+    margin-top:210px;
+    border-style:hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+}
+body{
+    background-color:
+}

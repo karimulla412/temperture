@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <title>Temperature convertion website </title>
+    <link rel="stylesheet" href="temptes3.css">
+    </head>
+    <body>
+        <h1>Temperature Conversion</h1>
+        <form>
+            <legend>
+            <center>
+                <div id="div">
+                <label id="label1" for="input-unit">Input Unit:</label>
+                <select id="input-unit" name="input-unit">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <label for="input-temperature" id="label2">Input Temperature:</label>
+                <input type="number" id="input-temperature" name="input-temperature">
+           
+            <br><br>
+            <label id="labe3" for="output-unit">Output Unit:</label>
+            <select id="output-unit" name="output-unit">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            <label  id="label4" for="output-temperature">Output Temperature:</label>
+            <input type="text" id="output-temperature" name="output-temperature" readonly><br><br>
+            <button type="button" onclick="convertTemperature()">Convert</button>
+        </div></center>
+            <script src="temptest3.js"></script>
+            </legend>
+        </form>
+    </body>
+</html>
